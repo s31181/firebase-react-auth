@@ -1,0 +1,19 @@
+.button {
+  border: 2px solid $primary-blue;
+  background-color: #fafafa;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  max-width: 5rem;
+  text-align: center;
+  color: $primary-blue;
+  color: $primary-blue;
+  text-decoration: none;
+  font-weight: 900;
+  transition: all .1s ease-out;
+  display: block;
+
+    &:hover {
+      background-color: $primary-blue;;
+      color: #fafafa;
+    }
+}

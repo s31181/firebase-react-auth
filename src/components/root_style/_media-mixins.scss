@@ -1,0 +1,7 @@
+@mixin tablet-down {
+  @media (max-width: 767px) {
+    background-size: auto;
+    background-repeat: repeat;
+    background-origin: auto;
+    @content; }
+}
